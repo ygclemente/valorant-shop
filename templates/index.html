@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>ValorantPoints</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/app.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs-header/formas-de-pagamento-1000x50.jpeg') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs-header/logo.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs-armas/araxys-black.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs-armas/Kuronami_Vandal_White.webp') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs-armas/reaver-vandal.avif') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs-armas/vandal-sublime_valorant_full_skin_163576.webp') }}">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="{{ url_for('static', filename='imgs-header/logo.png') }}"  width="200" height="200"></h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+       
+            <a href="login.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/></a>
+          </svg>
+         
+    </nav>
+
+    <div class="frase-inicial">
+        <h1>Compre Skins de Valorant de forma rápida e segura!</h1>
+        <p>Envio para a sua conta em segundos!</p>
+</div>
+     
+
+    <div class="container">
+        
+        <h2>Produtos em Destaque</h2>
+        <div class="product-place">
+            
+            <div class="product-item">
+                
+                <img src="{{ url_for('static', filename='imgs-armas/vandal-sublime_valorant_full_skin_163576.webp') }}" alt="Produto 1" width="350" height="150">
+                <h3>Vandal Sublime</h3>
+                <p>R$ 99,90</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product-item">
+                <img src="{{ url_for('static', filename='imgs-armas/Kuronami_Vandal_White.webp') }}" alt="Produto 2" width="380" height="150">
+                <h3>Vandal Kuronami (White)</h3>
+                <p>R$ 149,90</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product-item">
+                <img src="{{ url_for('static', filename='imgs-armas/reaver-vandal.avif') }}"alt="Produto 3" width="380" height="150">
+                <h3>Vanda Saqueadora (White)</h3>
+                <p>R$ 199,90</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product-item">
+                <img src="{{ url_for('static', filename='imgs-armas/araxys-black.png') }}" alt="Produto 4" width="380" height="150">
+                <h3>Vandal Araxys (Black)</h3>
+                <p>R$ 249,90</p>
+                <button>Comprar</button>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    <div class="pagamento">   
+    <h2>Formas de pagamento!</h2>
+    <img src="{{ url_for('static', filename='imgs-header/formas-de-pagamento-1000x50.png') }}" alt="">
+    </div>
+ 
+    <footer>
+        <p>&copy; 2024 ValorantShop. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

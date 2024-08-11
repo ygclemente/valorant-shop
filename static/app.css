@@ -1,0 +1,105 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover{ 
+    background-color: #747474;
+    padding: 12px;
+    transition: 0.3s;
+    border-radius: 12px;
+    
+}
+nav svg{
+    margin: 5px;
+    left: 30px;
+    color: white;
+    
+}
+.frase-inicial{
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.product-place{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.product-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(35% - 25px);
+    max-width: calc(35% - 25px);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.product-item img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.product-item button{
+    border-radius: 10px;
+    border: none;
+    padding: 18px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.product-item button:hover{
+    transition: 0.4s;
+}
+.product-item p {
+    font-size: 18px;
+}
+.pagamento{
+    padding: 80px;
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    
+}
